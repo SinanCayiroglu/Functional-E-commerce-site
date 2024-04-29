@@ -1,0 +1,132 @@
+{
+    "prodetails": {
+      "id": "prodetails",
+      "class": "section-p1",
+      "content": {
+        "single-pro-image": {
+          "class": "single-pro-image",
+          "content": {
+            "MainImg": {
+              "tag": "img",
+              "src": "./img/products/n7.jpg",
+              "width": "100%",
+              "alt": ""
+            },
+            "small-img-group": {
+              "class": "small-img-group",
+              "content": [
+                {
+                  "small-img-col": {
+                    "class": "small-img-col",
+                    "content": {
+                      "tag": "img",
+                      "src": "./img/products/n7.jpg",
+                      "width": "100%",
+                      "class": "small-img",
+                      "alt": ""
+                    }
+                  }
+                },
+                {
+                  "small-img-col": {
+                    "class": "small-img-col",
+                    "content": {
+                      "tag": "img",
+                      "src": "./img/products/n2.jpg",
+                      "width": "100%",
+                      "class": "small-img",
+                      "alt": ""
+                    }
+                  }
+                },
+                {
+                  "small-img-col": {
+                    "class": "small-img-col",
+                    "content": {
+                      "tag": "img",
+                      "src": "./img/products/n3.jpg",
+                      "width": "100%",
+                      "class": "small-img",
+                      "alt": ""
+                    }
+                  }
+                },
+                {
+                  "small-img-col": {
+                    "class": "small-img-col",
+                    "content": {
+                      "tag": "img",
+                      "src": "./img/products/n4.jpg",
+                      "width": "100%",
+                      "class": "small-img",
+                      "alt": ""
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "single-pro-details": {
+          "class": "single-pro-details",
+          "content": [
+            {
+              "tag": "h6",
+              "content": "Home /T-shirt"
+            },
+            {
+              "tag": "h4",
+              "content": "Men's fashion T-shirt"
+            },
+            {
+              "tag": "h2",
+              "content": "$78.00"
+            },
+            {
+              "tag": "select",
+              "content": [
+                {
+                  "tag": "option",
+                  "content": "Select Size"
+                },
+                {
+                  "tag": "option",
+                  "content": "XL"
+                },
+                {
+                  "tag": "option",
+                  "content": "XLL"
+                },
+                {
+                  "tag": "option",
+                  "content": "Small"
+                },
+                {
+                  "tag": "option",
+                  "content": "Large"
+                }
+              ]
+            },
+            {
+              "tag": "input",
+              "type": "number",
+              "value": "1"
+            },
+            {
+              "tag": "button",
+              "class": "normal",
+              "content": "Add to Cart"
+            },
+            {
+              "tag": "h4",
+              "content": "Product Details"
+            },
+            {
+              "tag": "span",
+              "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. At eos voluptatem iste mollitia. Dolorum est maxime labore excepturi totam atque recusandae doloremque ipsum harum aut unde, voluptatem, nemo, nisi omnis."
+            }
+          ]
+        }
+      }
+    }
+  }
