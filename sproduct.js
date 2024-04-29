@@ -212,3 +212,11 @@ function addToLocalStorage(product){
     
     localStorage.setItem("cart",JSON.stringify(cart))
 }
+
+// Retrieve cart items from local storage
+const cart = JSON.parse(localStorage.getItem("cart") || "[]");
+
+// Calculate the total quantity of items in the cart
+const totalQuantity = cart.reduce((total, item) => total + item.quantity, 0);
+const lgBagSpan = document.querySelector("#lg-bag span");
+lgBagSpan.textContent = totalQuantity.toString();

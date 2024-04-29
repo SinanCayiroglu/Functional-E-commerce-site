@@ -4,11 +4,12 @@ document.addEventListener("DOMContentLoaded", function() {
     // Get the tbody element where cart items will be rendered
     
     const tbody = document.querySelector("#cart tbody");
-
+    let totalQuantity = 0
     // Loop through each cart item and render it in the table
     cart.forEach(item => {
         const row = document.createElement("tr");
         row.dataset.itemId = item.id;
+        totalQuantity = totalQuantity+item.quantity
         row.innerHTML = `
             <td><button class="delete-btn"><i class="fa-regular fa-circle-xmark"></i></button></td>
             <td><img src="${item.image}" alt=""></td>
@@ -19,6 +20,8 @@ document.addEventListener("DOMContentLoaded", function() {
         `;
         tbody.appendChild(row);
     });
+    const lgBagSpan = document.querySelector("#lg-bag span");
+    lgBagSpan.textContent = totalQuantity.toString();
 
     const table = document.querySelector("#subtotal table")
 
